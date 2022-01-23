@@ -1,11 +1,7 @@
 package algorithm
 
 fun main(){
-    val arraySample = arrayOf(1,3,5,7,9)
-    val arraySample2 = arrayOf(256741038 ,623958417 ,467905213 ,714532089 ,938071625)
-    val arraySample3 = arrayOf(396285104, 573261094 ,759641832 ,819230764 ,364801279)
-    val arraySample4 = arrayOf(5,5,5,5,5)
-    MiniMaxSum.miniMaxSum(arraySample4)
+
 }
 
 object MiniMaxSum {
