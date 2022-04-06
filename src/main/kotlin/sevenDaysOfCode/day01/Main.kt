@@ -12,4 +12,5 @@ suspend fun main(args : Array<String>){
 
 suspend fun getTop250Movies(moviesRepository: moviesRepository){
     val response = moviesRepository.getTop250Movies(IMDB_KEY)
+    println(response.body())
 }
